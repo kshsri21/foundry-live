@@ -42,7 +42,4 @@ contract TestDAI is Test {
         assertEq(recipientBalance, 1e18, "Recipient should receive 1 DAI");
     }
 
-    function tearDown() public {
-        vm.stopPrank();
-    }
 }
